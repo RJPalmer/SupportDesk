@@ -1,0 +1,21 @@
+# Build output and installed dependencies
+node_modules/
+dist/
+bin/
+obj/
+
+# Local SQLite data
+*.db
+*.db-shm
+*.db-wal
+
+# Local environment and editor files
+.DS_Store
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Test output
+TestResults/

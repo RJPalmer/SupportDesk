@@ -1,0 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using SupportDesk.Api.Models;
+
+namespace SupportDesk.Api.Data;
+
+public sealed class SupportDeskDbContext(DbContextOptions<SupportDeskDbContext> options) : DbContext(options)
+{
+    public DbSet<Ticket> Tickets => Set<Ticket>();
+}
