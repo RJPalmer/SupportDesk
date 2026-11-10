@@ -52,18 +52,3 @@ backend/SupportDesk.Api/   ASP.NET Core API and SQLite persistence
 ```
 
 The API uses `EnsureCreated` to keep this learning MVP easy to start. If the schema changes later, switch to EF Core migrations before relying on existing local data.
-
-## GitHub
-
-The project is ready for a public GitHub repository, but has not been published. After you create a public empty repository, connect it and push:
-
-```bash
-git init
-git add .
-git commit -m "Build SupportDesk ticket MVP"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/SupportDesk.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username. Review the files before pushing; a public repository is visible to everyone.
